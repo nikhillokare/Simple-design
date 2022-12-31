@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    background: red;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: red;
+   
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  nav {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+  }
+  
+  nav li {
+    margin: 0 10px;
+    color: white;
+    padding-right: 70px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    justify-content: center;
+    padding: inherit;
+  }
+  
+  .cart {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .cart img {
+    width: 40px;
+    height: 70px;
+    width: 100px;
+  }
+  
+  .hero-image {
+    height: 900px;
+    background-image: url('https://images.pexels.com/photos/12105470/pexels-photo-12105470.jpeg?auto=compress&cs=tinysrgb&w=600"');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #f69c55;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f05539;
+  }
+  
+  .featured-products {
+    padding: 50px 0;
+    text-align: center;
+    background: aqua;
+  }
+  
+  .featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product {
+    flex: 1;
+    text-align: flex;
+  }
+  
+  .product img {
+    height: 300px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    background: red;
+    
+  }
+  
+  
+  footer ul {
+    
+  }
